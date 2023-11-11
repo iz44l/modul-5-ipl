@@ -13,6 +13,7 @@ public class FitNesseExpediter implements ResponseSender {
     private FitNesseContext context;
     protected long requestParsingTimeLimit;
     private long requestProgress;
-    private long requestParsingDeadLine;
+    private long requestParsingDeadline;
     private boolean hasError;
-}
+    ...
+    }
